@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faugei-flower shop</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="font.css">
+
+    <!-- Tailwind Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/1f58272224.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+
+<body class="max-w-5xl mx-auto inter">
+
+    <header>
+
+        <!-- Nav Bar Section -->
+
+        <section>
+            <nav class="flex justify-between items-center">
+                <div>
+                    <img class="w-full" src="./assets/logo.png" alt="">
+                </div>
+                <div>
+                    <ul class="flex md:gap-16">
+                        <li><a href="" class="hidden md:block font-bold">Home</a></li>
+                        <li><a href="" class="hidden md:block gray-text">Shop</a></li>
+                        <li><a href="" class="hidden md:block gray-text">About us</a></li>
+                        <li"><a href=""><i class="fa-solid fa-cart-shopping mr-1"></i>Cart ($56)</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Banner Section -->
+
+        <section class="md:mt-28 flex flex-col-reverse md:flex-row items-center gap-7 md:gap-0 mt-9">
+            <div class="md:w-1/2 gap-3 md:gap-4 flex flex-col">
+                <div>
+                    <h1 class="noto-serif text-2xl md:text-6xl">ALWAYS <span class="orange-text">FRESH</span></h1>
+                    <h1 class="noto-serif text-2xl md:text-6xl orange-text">FLOWERS</h1>
+                </div>
+                <p class="gray-text text-sm md:text-xl">Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop.
+                    From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for
+                    any occasion. </p>
+            </div>
+            <div class="md:w-1/2">
+                <img class="w-full" src="./assets/hero-flower.png" alt="">
+            </div>
+        </section>
+
+    </header>
+
 </body>
+
 </html>
