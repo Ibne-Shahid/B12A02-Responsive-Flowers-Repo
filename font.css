@@ -19,3 +19,7 @@
 .orange-bg{
     background-color: rgb(233, 90, 8);
 }
+
+.drop{
+    filter: drop-shadow(5px 10px 4px #95959b);
+}
